@@ -1,43 +1,42 @@
 <html>
   <head>
-    <meta charset="UTF-8">
-    <script src="script.js"></script>
+    <meta charset="UTF-8" />
     <style>
-    body{
-      display:grid;    
-      place-items:center;
-      grid-template-columns: 150px 350px;
-      grid-template-rows:  1fr 1fr;
-      grid-template-areas: "a b"
-                           "c d";
-      background:#62374e; 
-      margin:0;
-      padding:0;
-    }
-    div {
-      background:#fdc57b; 
-      width:50px;
-      height:50px;
-    }
-   .a {  
-      grid-area: a;
-  }
-  .b {   
-      grid-area: b;
-  }
-  .c {    
-      grid-area: c;
-  }
-  .d {     
-      grid-area: d;
-  }
-  </style>
+      body {
+        display: grid;
+        place-items: center;
+        grid-template-columns: 150px 350px;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas:
+          'a b'
+          'c d';
+        background: #62374e;
+        margin: 0;
+        padding: 0;
+      }
+      div {
+        background: #fdc57b;
+        width: 50px;
+        height: 50px;
+      }
+      .a {
+        grid-area: a;
+      }
+      .b {
+        grid-area: b;
+      }
+      .c {
+        grid-area: c;
+      }
+      .d {
+        grid-area: d;
+      }
+    </style>
   </head>
   <body>
-  <div class="a"></div>
-  <div class="b"></div>
-  <div class="c"></div>
-  <div class="d"></div>
-  
+    <div class="a"></div>
+    <div class="b"></div>
+    <div class="c"></div>
+    <div class="d"></div>
   </body>
 </html>
